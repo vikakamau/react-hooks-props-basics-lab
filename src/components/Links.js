@@ -1,12 +1,12 @@
 
 
 
-function Links (props){
+function Links (viki){
     return(
         <>
         <h3>Links</h3>
-        <a href={props.github}>{props.github}</a>
-        <a href={props.linkedin}>{props.linkedin}</a>
+        <a href={viki.github}>{viki.github}</a>
+        <a href={viki.linkedin}>{viki.linkedin}</a>
         </>
     )
 }export default Links
